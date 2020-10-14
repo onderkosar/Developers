@@ -12,6 +12,8 @@
 		95448B4C25363C3F00428103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95448B4B25363C3F00428103 /* Assets.xcassets */; };
 		95448B4F25363C3F00428103 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95448B4E25363C3F00428103 /* Preview Assets.xcassets */; };
 		95448B5D2536403D00428103 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95448B5C2536403D00428103 /* CardView.swift */; };
+		959C79082537214C008F5DC2 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C79072537214C008F5DC2 /* CardModel.swift */; };
+		959C790D25372461008F5DC2 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C790C25372461008F5DC2 /* CardData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		95448B4E25363C3F00428103 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95448B5025363C3F00428103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95448B5C2536403D00428103 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		959C79072537214C008F5DC2 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		959C790C25372461008F5DC2 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		95448B4625363C3900428103 /* Developers */ = {
 			isa = PBXGroup;
 			children = (
+				959C790B25372458008F5DC2 /* Data */,
+				959C790625372136008F5DC2 /* Model */,
 				95448B592536401F00428103 /* View */,
 				95448B582536401800428103 /* App */,
 				95448B4B25363C3F00428103 /* Assets.xcassets */,
@@ -86,6 +92,22 @@
 				95448B5C2536403D00428103 /* CardView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		959C790625372136008F5DC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				959C79072537214C008F5DC2 /* CardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		959C790B25372458008F5DC2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				959C790C25372461008F5DC2 /* CardData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +179,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				959C790D25372461008F5DC2 /* CardData.swift in Sources */,
 				95448B4A25363C3900428103 /* ContentView.swift in Sources */,
+				959C79082537214C008F5DC2 /* CardModel.swift in Sources */,
 				95448B5D2536403D00428103 /* CardView.swift in Sources */,
 				95448B4825363C3900428103 /* DevelopersApp.swift in Sources */,
 			);
